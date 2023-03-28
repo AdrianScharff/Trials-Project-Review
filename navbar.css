@@ -9,6 +9,7 @@
     right: 0px;
     z-index: 100;
     background-color: rgb(138, 46, 46);
+    
 }
 #github,
 #menu{
@@ -16,6 +17,24 @@
   color: white;
   font-weight: bold;
   justify-content: center;
-  
-
+  transition: 0.15s;
+  margin-left: 10px;
 }
+#githubText{
+  text-decoration: none;
+}
+#github :hover,
+#menu :hover{
+cursor: pointer;
+color: rgb(199, 199, 199);
+}
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+

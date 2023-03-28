@@ -13,8 +13,17 @@
  display: inline-block;
 }
 
+#projects {
+ display: flex;
+ justify-content: center;
+}
+
+#projects img {
+ margin: 0 20px;
+}
+
 /* #textwel {
  text-align: center;
 } */
 
-@media
+/* @media */
